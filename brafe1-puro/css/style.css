@@ -51,3 +51,94 @@ a.menu-logo{
     color: white;
     font-size: 1.125rem;
 }
+
+/*Intro*/
+
+.intro{
+   background: url('../public/img/bg-intro.jpg') no-repeat center center;
+   background-size: cover;
+   padding: 9.375rem 0;
+   text-align: center;
+   color: #fff;
+}
+
+.intro h1{
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+.intro h1::after{
+    content: '';
+    display: block;
+    width: 20px;
+    height: 4px;
+    background: #fff;
+    margin: 10px auto;
+
+}
+
+.intro p{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.125rem;
+}
+
+/*Sobre*/
+
+.sobre{
+    padding: 60px 0;
+}
+
+.sobre-container{
+    max-width: 60rem;
+    margin : 0 auto;
+}
+
+.sobre-container::after, .sobre-container::before{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.sobre h2{
+    text-align: center;
+    font-size: 2.25rem;
+    text-transform: capitalize;
+    margin-bottom: 3.75rem;
+}
+
+.sobre-item{
+    width: 28.75rem;
+    float: left;
+    margin: 0 10px;
+}
+
+.sobre-item img{
+    display: block;
+    max-width: 100%;
+}
+
+.sobre-item h3{
+    font-size: 2.25rem;
+    line-height: 1em;
+    background: #252525;
+    color: white;
+    width: 13.75rem;
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;
+    padding: 5px 0 10px 0;
+    position: relative;
+    top: -25px;
+}
+
+.sobre > p{
+    font-size: 1.25rem;
+    line-height: 1.4rem;
+    font-style: italic;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 460px;
+}
+
+
